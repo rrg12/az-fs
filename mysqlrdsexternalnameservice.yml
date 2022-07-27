@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  type: ExternalName
+  externalName: terraform-20220623142405569500000001.ckmjfvh4npzn.ap-south-1.rds.amazonaws.com #RDS endpoint
+  
